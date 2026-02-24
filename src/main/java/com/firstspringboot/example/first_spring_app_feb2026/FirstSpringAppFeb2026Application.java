@@ -43,28 +43,28 @@ public class FirstSpringAppFeb2026Application {
 
 		// Dependency injection - loose coupling with setter injection
 
-		Employee emp2 = new Employee();
-		emp2.setId(321);
-		emp2.setDesignation("tester");
-		emp2.setEmail("vijay@gmail.com");
-		emp2.setName("Vijay");
-
-		Address adrs2 = new Address();
-		adrs2.setDoorNo(222);
-		adrs2.setStreetName("old street");
-		adrs2.setCity("old city");
-
-		emp2.setAddress(adrs2);
-
-		System.out.println("emp2 is : "+emp2);
-		System.out.println("adrs2 is : "+adrs2);
-
-		emp2.getAddress().setDoorNo(999);
-		emp2.getAddress().setStreetName("new street");
-		emp2.getAddress().setCity("new city");
-
-		System.out.println("emp2 is after adrs2 change : "+emp2);
-		System.out.println("adrs2 is after adrs2 change : "+adrs2);
+//		Employee emp2 = new Employee();
+//		emp2.setId(321);
+//		emp2.setDesignation("tester");
+//		emp2.setEmail("vijay@gmail.com");
+//		emp2.setName("Vijay");
+//
+//		Address adrs2 = new Address();
+//		adrs2.setDoorNo(222);
+//		adrs2.setStreetName("old street");
+//		adrs2.setCity("old city");
+//
+//		emp2.setAddress(adrs2);
+//
+//		System.out.println("emp2 is : "+emp2);
+//		System.out.println("adrs2 is : "+adrs2);
+//
+//		emp2.getAddress().setDoorNo(999);
+//		emp2.getAddress().setStreetName("new street");
+//		emp2.getAddress().setCity("new city");
+//
+//		System.out.println("emp2 is after adrs2 change : "+emp2);
+//		System.out.println("adrs2 is after adrs2 change : "+adrs2);
 
 	}
 
